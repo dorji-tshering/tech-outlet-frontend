@@ -1,0 +1,32 @@
+.search-field {
+    margin-top: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.visually-hidden {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+form {
+    display: inline-block;
+    width: 100vw;
+    border: 2px solid red;
+    padding: 1px;
+}
+
+.search-button {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+input {
+    display: inline-block;
+    font-size: 0.9em;
+    width: 80%;
+    border: 2px solid blue;
+}

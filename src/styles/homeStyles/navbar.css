@@ -1,0 +1,13 @@
+.navbar {
+    height: 1.5em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 50%;
+}

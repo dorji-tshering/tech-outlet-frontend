@@ -5,6 +5,7 @@ import { Routes } from '../../router/config';
 import RouteWithSubRoutes from '../../router/RouteWithSubRoutes';
 
 const MobileBackLayout = () => {
+
         return (
                 <div className="mb-layout">
                         <GoBack/>

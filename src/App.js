@@ -12,12 +12,12 @@ import RouteWithSubRoutes from './router/RouteWithSubRoutes';
 function App() {
 
   	return (
-    	<BrowserRouter>
+    	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<MediaQuery minDeviceWidth={769}>
 			<DesktopNav/>
 			<Switch>
 				<Route exact path="/" component={Home} />
-							
+
 				{Routes.map((route, i) => 
 					<RouteWithSubRoutes key={i} {...route}/>
 				)}

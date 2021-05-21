@@ -1,0 +1,23 @@
+.deal-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        margin-top: 10px;
+        border: 1px solid cyan;
+        background-color: cornsilk;
+}
+
+.deal-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2px;
+}
+
+.p-thumbnail {
+        width: 100%;
+}
+
+.p-item {
+        border: 1px solid rgb(202, 194, 194);
+}

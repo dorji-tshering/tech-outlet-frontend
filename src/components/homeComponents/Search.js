@@ -4,19 +4,23 @@ import { ImSearch } from 'react-icons/im';
 
 const Search = () => {
     return (
-        <div className="search-field">
-            <form action="/" method="get">
-                <label htmlFor="header-search">
-                    <span className="visually-hidden">search products, brands, and more</span>
-                </label>
-                <input
-                    type="text"
-                    id="header-search"
-                    placeholder="search Products and Brands" 
-                />
-                <button type="submit"><ImSearch className="search-button"/></button>
-            </form>
-        </div>
+		<div className="search-field">
+			<form action="/" method="get">
+				<label htmlFor="header-search">
+				<span className="visually-hidden">search products, brands, and more</span>
+				</label>
+				<div className="search">
+					<input
+					type="search"
+					name="search"
+					id="header-search"
+					placeholder="search Products and Brands" 
+					className="search-term"
+					/>
+					<button type="submit" className="button"><ImSearch className="search-button"/></button>
+				</div>
+			</form>
+		</div>
     )
 }
 

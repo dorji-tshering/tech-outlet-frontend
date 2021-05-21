@@ -1,18 +1,37 @@
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import { routes } from './router/config';
+import DesktopNav from './components/utilComponents/DesktopNav';
+import MobileBackLayout from './components/utilComponents/MobileBackLayout';
+import Home from './containers/Home';
+import MediaQuery from 'react-responsive';
+import { Routes } from './router/config';
 import RouteWithSubRoutes from './router/RouteWithSubRoutes';
 
+//? configures navigation options for mobile and desktop
+
 function App() {
-  return (
-    <BrowserRouter>
-    <Switch>
-        {routes.map((route, index) => 
-            <RouteWithSubRoutes key={index} {...route} />)
-        }
-      </Switch> 
-    </BrowserRouter>
-  );
+
+  	return (
+    	<BrowserRouter>
+		<MediaQuery minDeviceWidth={769}>
+			<DesktopNav/>
+			<Switch>
+				<Route exact path="/" component={Home} />
+							
+				{Routes.map((route, i) => 
+					<RouteWithSubRoutes key={i} {...route}/>
+				)}
+			</Switch>
+		</MediaQuery>
+
+		<MediaQuery maxDeviceWidth={768}>
+			<Switch>
+				<Route exact path="/" component={Home} />
+				<MobileBackLayout/>
+			</Switch>
+		</MediaQuery>
+    	</BrowserRouter>
+  	);
 }
 
 export default App;

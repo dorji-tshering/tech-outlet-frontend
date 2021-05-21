@@ -1,0 +1,71 @@
+.mb-nav {
+        padding: 5px;
+        background-color: darkkhaki;
+}
+
+.navbar {
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding:5px;
+}
+
+.logo {
+        height: 100%;
+        border: 2px solid rgb(18, 197, 221);
+        flex: 5;
+        border-radius: 50%;
+        align-self: center;
+}
+
+.app-logo {
+        flex: 6;
+}
+
+.signin {
+        text-decoration: none;
+        align-self: center;
+        flex: 1;
+}
+
+.cart {
+        align-self: center;
+        text-decoration: none;
+        flex: 1;
+}
+
+.cart-and-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 5px;
+}
+
+.no-of-cartitems {
+        width: 8px;
+        height: 8px;
+        font-family: sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        align-self: flex-start;
+        position: relative;
+        right: 3px;
+        bottom: 3px;
+        border-radius: 50%;
+        background-color: rgb(240, 12, 221);
+}
+
+.cart-icon {
+        color: green;
+}
+
+.menu {
+        align-self: center;
+        width: 15px;
+        height: 15px;
+}
+

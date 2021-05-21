@@ -1,0 +1,32 @@
+.offer-container {
+        margin-top: 5px;
+}
+
+.offer-link {
+        text-decoration: none;
+}
+
+.offer-image {
+        width: 100%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+        display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+        display: none;
+}
+
+.swiper-pagination-bullet {
+        background-color: rgb(9, 209, 216);
+        width: 5px;
+        height: 5px;
+        position: relative;
+        top: 5px;
+}
+.swiper-pagination-bullet-active {
+        background-color: red;
+}
+
+

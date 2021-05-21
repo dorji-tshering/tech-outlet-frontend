@@ -1,0 +1,21 @@
+.categories {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: rgb(211, 210, 197);
+        height: 40px;
+        padding: 3px;
+        overflow: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+}
+
+.categories::-webkit-scrollbar {
+        display: none;                  /* for Chrome Safari and Opera */
+}
+
+.c-item {
+        text-decoration: none;
+        flex-basis: 30%;
+}

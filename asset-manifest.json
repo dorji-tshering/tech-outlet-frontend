@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tech-outlet-frontend/static/css/main.2eb9762e.chunk.css",
-    "main.js": "/tech-outlet-frontend/static/js/main.6b5a783a.chunk.js",
-    "main.js.map": "/tech-outlet-frontend/static/js/main.6b5a783a.chunk.js.map",
+    "main.js": "/tech-outlet-frontend/static/js/main.8ad2eb7a.chunk.js",
+    "main.js.map": "/tech-outlet-frontend/static/js/main.8ad2eb7a.chunk.js.map",
     "runtime-main.js": "/tech-outlet-frontend/static/js/runtime-main.241e169c.js",
     "runtime-main.js.map": "/tech-outlet-frontend/static/js/runtime-main.241e169c.js.map",
     "static/css/2.985f3a28.chunk.css": "/tech-outlet-frontend/static/css/2.985f3a28.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.985f3a28.chunk.css",
     "static/js/2.f206e495.chunk.js",
     "static/css/main.2eb9762e.chunk.css",
-    "static/js/main.6b5a783a.chunk.js"
+    "static/js/main.8ad2eb7a.chunk.js"
   ]
 }

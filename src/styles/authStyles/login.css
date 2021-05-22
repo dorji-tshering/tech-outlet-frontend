@@ -1,0 +1,105 @@
+.login-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.3rem;
+}
+
+.login-form {
+        margin: 20px auto 20px auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid rgb(228, 221, 215);
+        width: 75vw;
+        padding: 20px;
+        border-radius: 20px;
+}
+
+.form-input, .forgot-password, .submit-button {
+        margin-top: 10px;
+}
+
+.form-input {
+        outline: none;
+        font-size: 1.2rem;
+        width: 80%;
+        padding: 15px;
+        border-radius: 30px;
+        border: 1px solid rgb(23, 204, 228);
+        transition: border 0.2s;
+}
+
+.form-input:focus {
+        border: 5px solid rgb(23, 204, 228);
+}
+
+.form-label {
+        clip-path: inset(50%);
+	overflow: hidden;
+	position: absolute;
+}
+
+.forgot-password {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color:rgb(10, 69, 247);
+}
+
+.submit-button {
+        display: block;
+        font-size: 1.2rem;
+        color: rgb(228, 221, 215);
+        width: 75%;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid rgb(23, 204, 228);
+        background-color: rgb(6, 121, 136);
+}
+
+.link-to-signup {
+        text-align: center;
+        border: 1px solid rgb(228, 221, 215);
+        width: 75vw;
+        padding: 0 20px 20px 20px;
+        border-radius: 10px;
+}
+
+.new-to-ecom {
+        font-style: italic;
+        color:rgb(6, 121, 136);
+}
+
+.signup-link {
+        display: inline-block;
+        color:rgb(228, 221, 215);
+        text-decoration: none;
+        border: 1px solid rgb(23, 204, 228);
+        padding: 10px;
+        width: 70%;
+        border-radius: 20px;
+        background-color: rgb(8, 43, 151);
+}
+
+.c-icon {
+        position: relative;
+        top: 0.16em;
+}
+
+.copyright {
+       user-select: none;
+       margin: 60px auto 20px auto;
+}
+
+.welcome-header {
+        font-size: 1.7rem;
+        font-family: monospace;
+}
+
+.welcome-para {
+        text-align: center;
+        color:rgb(8, 89, 102)
+}

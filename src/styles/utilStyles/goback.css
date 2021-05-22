@@ -1,11 +1,11 @@
 .n-back {
-        height: 30px;
+        height: 50px;
         background-color: rgb(49, 40, 29);
 }
 
 .go-back {
-        height: 30px;
-        width: 20px;
+        height: 50px;
+        width: 35px;
         color: rgb(23, 221, 228);
         margin-left: 5px;
 }

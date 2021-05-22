@@ -1,5 +1,5 @@
 import Login from '../components/authComponents/Login';
-import Signin from '../components/authComponents/Signin';
+import Signup from '../components/authComponents/Signup';
 import Cart from '../components/cartComponents/Cart';
 import Offer from '../containers/Offer';
 import Product from '../components/productComponents/Product';
@@ -11,9 +11,9 @@ import Deal from '../containers/Deal';
 
 export const Routes = [
  	{
-		path: '/signin',
+		path: '/signup',
 		exact: true,
-		component: Signin,
+		component: Signup,
 		private: false,
 	},
 	{

@@ -14,14 +14,16 @@ const MobileNav = () => {
 
 	return (
 		<div className="mb-nav"> 
-			<div className="navbar">                   
-				<NavLink to="/" className="app-logo">
+			<div className="navbar">  
+				<section className="app-logo">                
+				<NavLink to="/" >
 					<img src={Logo} alt="UTO-logo" className="logo" />
 				</NavLink>
+				</section> 
 
 				{ loggedIn? '' :
-				<NavLink to="/signin" className="signin" >
-					Signin
+				<NavLink to="/login" className="signin" >
+					Login
 				</NavLink>
 				}
 

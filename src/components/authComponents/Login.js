@@ -11,10 +11,10 @@ const Login = () => {
 			<form action="" method="post" className="login-form">
 			
 				<label htmlFor="phone" className="form-label">Mobile Number</label>
-				<input type="tel" name="phone" className="form-input" placeholder="phone number" />
+				<input type="tel" name="phone" className="form-input" placeholder="Mobile number" />
 			
 				<label htmlFor="password" className="form-label">Password</label>
-				<input type="password" name="password" className="form-input" placeholder="password"/>
+				<input type="password" name="password" className="form-input" placeholder="Password"/>
 
 				<NavLink to="" className="forgot-password">Forgot Password?</NavLink>				
 				<button type="submit" className="submit-button">LOGIN</button>

@@ -34,7 +34,7 @@
 }
 
 .form-input:focus {
-        border: 5px solid rgb(23, 204, 228);
+        border: 3px solid rgb(23, 204, 228);
 }
 
 .form-label {

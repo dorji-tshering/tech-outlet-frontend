@@ -16,7 +16,7 @@ const MobileNav = () => {
 		<div className="mb-nav"> 
 			<div className="navbar">  
 				<section className="app-logo">                
-				<NavLink to="/" >
+				<NavLink to="/" className="logo-link">
 					<img src={Logo} alt="UTO-logo" className="logo" />
 				</NavLink>
 				</section> 

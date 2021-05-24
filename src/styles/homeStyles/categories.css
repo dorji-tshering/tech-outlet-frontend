@@ -21,7 +21,6 @@
 
 .c-item {
         text-decoration: none;
-        border: 1px solid black;
         width: 5rem;            /* fallback for firefox */
         flex-basis: 5rem;
 }

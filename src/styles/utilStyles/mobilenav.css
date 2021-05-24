@@ -19,7 +19,7 @@
 
 .logo {
         height: 100%;
-        width: 5rem;
+        width: 4rem;
         border: 2px solid rgb(18, 197, 221);
         flex: 5;
         border-radius: 50%;
@@ -29,7 +29,6 @@
 .app-logo {
         flex: 6;
         width: 100vw;
-        border: 1px solid pink;
         width:max-content;
 }
 

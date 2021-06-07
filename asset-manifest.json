@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tech-outlet-frontend/static/css/main.0d26d131.chunk.css",
-    "main.js": "/tech-outlet-frontend/static/js/main.f8677687.chunk.js",
-    "main.js.map": "/tech-outlet-frontend/static/js/main.f8677687.chunk.js.map",
+    "main.css": "/tech-outlet-frontend/static/css/main.36ced1c3.chunk.css",
+    "main.js": "/tech-outlet-frontend/static/js/main.bdcaacfd.chunk.js",
+    "main.js.map": "/tech-outlet-frontend/static/js/main.bdcaacfd.chunk.js.map",
     "runtime-main.js": "/tech-outlet-frontend/static/js/runtime-main.b04fc07c.js",
     "runtime-main.js.map": "/tech-outlet-frontend/static/js/runtime-main.b04fc07c.js.map",
     "static/css/2.985f3a28.chunk.css": "/tech-outlet-frontend/static/css/2.985f3a28.chunk.css",
-    "static/js/2.3776f48a.chunk.js": "/tech-outlet-frontend/static/js/2.3776f48a.chunk.js",
-    "static/js/2.3776f48a.chunk.js.map": "/tech-outlet-frontend/static/js/2.3776f48a.chunk.js.map",
+    "static/js/2.2d85c5fb.chunk.js": "/tech-outlet-frontend/static/js/2.2d85c5fb.chunk.js",
+    "static/js/2.2d85c5fb.chunk.js.map": "/tech-outlet-frontend/static/js/2.2d85c5fb.chunk.js.map",
     "static/js/3.59c9f081.chunk.js": "/tech-outlet-frontend/static/js/3.59c9f081.chunk.js",
     "static/js/3.59c9f081.chunk.js.map": "/tech-outlet-frontend/static/js/3.59c9f081.chunk.js.map",
     "index.html": "/tech-outlet-frontend/index.html",
     "static/css/2.985f3a28.chunk.css.map": "/tech-outlet-frontend/static/css/2.985f3a28.chunk.css.map",
-    "static/css/main.0d26d131.chunk.css.map": "/tech-outlet-frontend/static/css/main.0d26d131.chunk.css.map",
-    "static/js/2.3776f48a.chunk.js.LICENSE.txt": "/tech-outlet-frontend/static/js/2.3776f48a.chunk.js.LICENSE.txt",
+    "static/css/main.36ced1c3.chunk.css.map": "/tech-outlet-frontend/static/css/main.36ced1c3.chunk.css.map",
+    "static/js/2.2d85c5fb.chunk.js.LICENSE.txt": "/tech-outlet-frontend/static/js/2.2d85c5fb.chunk.js.LICENSE.txt",
     "static/media/iphone.33347ff2.jpeg": "/tech-outlet-frontend/static/media/iphone.33347ff2.jpeg",
     "static/media/logo.c152dc11.jpeg": "/tech-outlet-frontend/static/media/logo.c152dc11.jpeg",
     "static/media/offer.7c4887f0.jpg": "/tech-outlet-frontend/static/media/offer.7c4887f0.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.b04fc07c.js",
     "static/css/2.985f3a28.chunk.css",
-    "static/js/2.3776f48a.chunk.js",
-    "static/css/main.0d26d131.chunk.css",
-    "static/js/main.f8677687.chunk.js"
+    "static/js/2.2d85c5fb.chunk.js",
+    "static/css/main.36ced1c3.chunk.css",
+    "static/js/main.bdcaacfd.chunk.js"
   ]
 }

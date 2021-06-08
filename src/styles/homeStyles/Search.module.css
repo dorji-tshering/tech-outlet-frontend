@@ -1,5 +1,4 @@
-.search-field {
-	margin-top: 5px;
+.search_field {
 	text-align: center;
 }
 
@@ -7,36 +6,37 @@
 	display: flex;
 	flex-direction: row;
 	margin: auto;
-	height: 30px;
+	height: 2.3rem;
 	width: 90%;
 }
 
-.visually-hidden {
+.visually_hidden {
 	clip-path: inset(50%);
 	overflow: hidden;
 	position: absolute;
 }
 
-.search-term {
+.search_term {
 	display: inline-block;
+	outline: none;
 	font-size: 1.2rem;
 	width: 100%;
 	border: 2px solid blue;
-	border-radius: 5px 0 0 5px;
+	border-right: none;
+	border-radius: 1px 0 0 1px;
 }
 
-.search-term:focus {
-	outline: none;
-	border-color: rgb(250, 36, 8);
+.search_term:focus, .search_term:focus + .button {
+	border-color: rgb(165, 163, 163);
 }
 
 .button {
 	padding: 3px;
 	background-color: blue;
-	border: none;
-	border-radius: 0 5px 5px 0;
+	border: 2px solid blue;
+	border-radius: 0 1px 1px 0;
 }
 
-.search-button {
+.search_button {
 	color:cornsilk;
 }

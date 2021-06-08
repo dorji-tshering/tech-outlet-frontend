@@ -1,4 +1,4 @@
-.deal-item {
+.deal_item {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -8,16 +8,16 @@
         background-color: cornsilk;
 }
 
-.deal-products {
+.deal_products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2px;
 }
 
-.p-thumbnail {
+.p_thumbnail {
         width: 100%;
 }
 
-.p-item {
+.p_item {
         border: 1px solid rgb(202, 194, 194);
 }

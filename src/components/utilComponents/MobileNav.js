@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../../assets/images/logo.jpeg'
 import { NavLink } from 'react-router-dom';
 import { FaCartPlus } from 'react-icons/fa';
-import '../../styles/utilStyles/mobilenav.css';
+import styles from '../../styles/utilStyles/Mobilenav.module.css';
 import { MdMenu } from 'react-icons/md'; 
 import Search from '../homeComponents/Search';
 import MobileMenu from '../menuComponents/MobileMenu';
@@ -13,27 +13,27 @@ const MobileNav = () => {
 	let cartItems = 9;
 
 	return (
-		<div className="mb-nav"> 
-			<div className="navbar">  
-				<section className="app-logo">                
-				<NavLink to="/" className="logo-link">
-					<img src={Logo} alt="UTO-logo" className="logo" />
-				</NavLink>
+		<div className={styles.mb_nav}> 
+			<div className={styles.navbar}>  
+				<section className={styles.app_logo}>                
+					<NavLink to="/">
+						<img src={Logo} alt="UTO-logo" className={styles.logo} />
+					</NavLink>
 				</section> 
 
 				{ loggedIn? '' :
-				<NavLink to="/login" className="signin" >
+				<NavLink to="/login" className={styles.signin} >
 					Login
 				</NavLink>
 				}
 
-				<NavLink to="/cart" className="cart">
-					<div className="cart-and-items">
-						<FaCartPlus className="cart-icon" />
-						<span className="no-of-cartitems">{cartItems}</span>
+				<NavLink to="/cart" className={styles.cart}>
+					<div className={styles.cart_and_items}>
+						<FaCartPlus className={styles.cart_icon} />
+						<span className={styles.no_of_cartitems}>{cartItems}</span>
 					</div>
 				</NavLink> 
-				<MdMenu className="menu" onClick={() => setShowMenu(!showMenu)}/> 
+				<MdMenu className={styles.menu} onClick={() => setShowMenu(!showMenu)}/> 
 			</div> 
 			{showMenu ? <MobileMenu/> : ''}
 			<Search/>           

@@ -1,14 +1,14 @@
-.c-item-container {
+.c_item_container {
         height: 100%;
         width: 100%;
         text-align: center;
 }
 
-.c-thumbnail {
+.c_thumbnail {
         height: 50%;
 }
 
-.c-name {
+.c_name {
         margin-top: 1px;
         font-size: 0.8rem;
 }

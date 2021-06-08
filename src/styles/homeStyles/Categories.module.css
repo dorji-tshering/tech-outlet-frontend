@@ -7,7 +7,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        background-color: rgb(211, 210, 197);
+        background-color: rgb(189, 177, 16);
         height: 50px;
         padding: 3px;
         overflow: scroll;
@@ -19,7 +19,7 @@
         display: none;                  /* for Chrome Safari and Opera */
 }
 
-.c-item {
+.c_item {
         text-decoration: none;
         width: 5rem;            /* fallback for firefox */
         flex-basis: 5rem;

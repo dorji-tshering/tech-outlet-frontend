@@ -1,0 +1,20 @@
+.categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-top: 10px;
+        text-align: center;
+}
+
+.sub_category{
+        border: 2px solid rgb(185, 166, 166);
+        text-decoration: none;
+}
+
+.c_thumbnail {
+        width: 100%;
+}
+
+.c_name {
+        color: rgb(66, 143, 66);
+}

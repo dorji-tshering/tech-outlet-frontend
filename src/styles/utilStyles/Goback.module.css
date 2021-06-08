@@ -1,9 +1,9 @@
-.n-back {
+.nav_back {
         height: 50px;
         background-color: rgb(49, 40, 29);
 }
 
-.go-back {
+.go_back {
         height: 50px;
         width: 35px;
         color: rgb(23, 221, 228);

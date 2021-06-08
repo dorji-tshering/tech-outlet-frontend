@@ -2,12 +2,13 @@
         margin-top: 5px;
 }
 
-.offer-link {
-        text-decoration: none;
+.swiper {
+        height: 100%;
 }
 
 .offer-image {
         width: 100%;
+        height: auto;
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
@@ -28,5 +29,3 @@
 .swiper-pagination-bullet-active {
         background-color: red;
 }
-
-

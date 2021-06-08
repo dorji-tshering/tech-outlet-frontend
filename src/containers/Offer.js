@@ -5,7 +5,7 @@ const Offer = () => {
     const match = useRouteMatch();
 
 	return (
-		<div className="offer-container">
+		<div>
 		<p>offertemplate</p>
 		
 		<ul>

@@ -1,23 +1,25 @@
 import React from 'react'
-import '../../styles/homeStyles/search.css';
+import styles from '../../styles/homeStyles/Search.module.css';
 import { ImSearch } from 'react-icons/im';
 
 const Search = () => {
     return (
-		<div className="search-field">
+		<div className={styles.search_container}>
 			<form action="/" method="get">
 				<label htmlFor="header-search">
-				<span className="visually-hidden">search products, brands, and more</span>
+				<span className={styles.visually_hidden}>search products, brands, and more</span>
 				</label>
-				<div className="search">
+				<div className={styles.search}>
 					<input
 					type="search"
 					name="search"
 					id="header-search"
 					placeholder="search Products and Brands" 
-					className="search-term"
+					className={styles.search_term}
 					/>
-					<button type="submit" className="button"><ImSearch className="search-button"/></button>
+					<button type="submit" className={styles.button}>
+						<ImSearch className={styles.search_button}/>
+					</button>
 				</div>
 			</form>
 		</div>

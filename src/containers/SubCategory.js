@@ -1,11 +1,27 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useParams } from 'react-router-dom';
+import Iphone from '../assets/images/iphone.jpeg';
+import styles from '../styles/containerStyles/SubCategory.module.css';
 
-const SubCategory = ({ match }) => {
+const SubCategory = () => {
+
+        const { categoryId, subCateId } = useParams();
+
+        const products = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                                11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
         return (
-                <div>
-                        <h3>Sub Category=items</h3>
-                        <NavLink to={`${match.url}/id=12334`}>On7 Prime</NavLink>     
+                <div className={styles.container}>
+                        <h3>Products of {categoryId} {'>'} {subCateId}</h3>
+                        <section className={styles.products}>
+                                {products.map((productId, i) =>
+                                        <NavLink to={`/category/${categoryId}/${subCateId}/product ${productId}`} 
+                                        className={styles.product}>
+                                                <img src={Iphone} alt="product" className={styles.p_thumbnail}/>
+                                                <p className={styles.p_name}>Product {productId}</p>
+                                                <p className={styles.p_price}>Nu.500</p>
+                                        </NavLink>      
+                                )}
+                        </section>
                 </div>
         )
 }

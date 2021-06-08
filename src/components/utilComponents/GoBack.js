@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/utilStyles/goback.css';
+import styles from '../../styles/utilStyles/Goback.module.css';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import { useHistory } from 'react-router-dom';
 
@@ -11,8 +11,8 @@ const GoBack = () => {
 	}
 
     	return (
-        	<div className="n-back">
-			<IoMdArrowRoundBack className="go-back" onClick={
+        	<div className={styles.nav_back}>
+			<IoMdArrowRoundBack className={styles.go_back} onClick={
 				() => goBack()
 			} />
 		</div>

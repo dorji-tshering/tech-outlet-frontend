@@ -22,7 +22,7 @@ const Signup = () => {
 				<label htmlFor="password" className={styles.form_label}>Mobile Number</label>
 				<input type="password" name="password" className={styles.form_input} placeholder="Password" />
 
-				<button type="submit" className={styles.submit_button}>Create Account</button>		
+				<button type="submit" className={styles.submit_button}>CREATE ACCOUNT</button>		
 			</form>
 			<p>Already have an accout?  <Link to="/login">Signin here</Link></p>
 		</div>

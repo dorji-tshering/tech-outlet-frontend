@@ -1,7 +1,6 @@
-.mb-nav {
+.mb_nav {
         padding: 5px;
-        background-color: darkkhaki;
-        width: au
+        background-color: rgb(231, 154, 213);
 }
 
 .navbar {
@@ -15,20 +14,22 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         padding:5px;
+        margin-bottom: 5px;
 }
 
 .logo {
         height: 100%;
-        width: 4rem;
-        border: 2px solid rgb(18, 197, 221);
+        width: 3rem;
         flex: 5;
         border-radius: 50%;
         align-self: center;
+        border: 1px solid red;
 }
 
-.app-logo {
+.app_logo {
         flex: 6;
         width: 100vw;
+        padding: 2px;
         width:max-content;
 }
 
@@ -44,14 +45,14 @@
         flex: 1;
 }
 
-.cart-and-items {
+.cart_and_items {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         padding: 5px;
 }
 
-.no-of-cartitems {
+.no_of_cartitems {
         width: 8px;
         height: 8px;
         font-family: sans-serif;
@@ -67,7 +68,7 @@
         background-color: rgb(240, 12, 221);
 }
 
-.cart-icon {
+.cart_icon {
         color: green;
 }
 

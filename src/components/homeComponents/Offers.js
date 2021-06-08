@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination, Navigation, EffectCube } from 'swiper/core';
@@ -13,7 +12,7 @@ import Offer3 from '../../assets/images/offer3.jpg';
 
 SwiperCore.use([Autoplay, EffectCube, Pagination, Navigation]);
 
-const Offers = ({ routes }) => {
+const Offers = () => {
 	const offers = [Offer1, Offer2, Offer3];
 	
 
@@ -21,7 +20,7 @@ const Offers = ({ routes }) => {
 		<div className="offer-container">
 			<Swiper spaceBetween={30} slidesPerView={1} loop={true} centeredSlides={true} autoplay={{"delay": 2500,
 				"disableOnInteraction":false}} pagination={{"clickable": true}}
-				navigation={true} effect={"cube"} cubeEffect={{
+				effect={"cube"} className="swiper" cubeEffect={{
 					"shadow": true,
 					"slideShadows": true,
 					"shadowOffset": 2,

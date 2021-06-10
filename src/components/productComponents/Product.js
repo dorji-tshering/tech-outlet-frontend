@@ -1,7 +1,6 @@
 import { useState} from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation,Thumbs } from 'swiper/core';
-import ProductDetails from '../productComponents/ProductDetails';
 import Iphone from '../../assets/images/iphone.jpeg';
 import "swiper/swiper.min.css";			// import swiper styles
 import "swiper/components/navigation/navigation.min.css";
@@ -17,9 +16,16 @@ const Product = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	const productImages= [Iphone, Iphone, Iphone, Iphone];
 	const { productId } = useParams();
-	const [color, setColor] = useState(null);
+	console.log(productId);
 	//const [size, setSize] = useState(null);
 	//const [quantity, setQuantity] = useState(null);
+
+	const scrollToTop = () => {
+		console.log('hello');
+		window.scrollTo(0, 0);
+	}
+
+	scrollToTop();
 
 	return (
 		<div className="product_container">
@@ -55,10 +61,10 @@ const Product = () => {
 				<section className="product_colors">
 					<p className="product_specific_title">Colors:</p>
 					<section className="colors">
-						<p className="red" onClick={() => setColor('red')}>Red</p>
-						<p className="green" onClick={() => setColor('green')}>Green</p>
-						<p className="blue" onClick={() => setColor('blue')}>Blue</p>
-						<p className="black" onClick={() => setColor('black')}>Black</p>
+						<p className="red">Red</p>
+						<p className="green" >Green</p>
+						<p className="blue" >Blue</p>
+						<p className="black" >Black</p>
 					</section>
 				</section>
 				<section className="product_sizes">

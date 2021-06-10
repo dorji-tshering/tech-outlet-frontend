@@ -6,6 +6,7 @@ import Home from './containers/Home';
 import MediaQuery from 'react-responsive';
 import { Routes } from './router/config';
 import RouteWithSubRoutes from './router/RouteWithSubRoutes';
+import ScrollToTop from './components/logicComponents/ScrollToTop';
 
 //? configures navigation options for mobile and desktop
 
@@ -15,6 +16,7 @@ function App() {
     	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<MediaQuery minDeviceWidth={769}>
 			<DesktopNav/>
+			<ScrollToTop/>
 			<Switch>
 				<Route exact path="/" component={Home} />
 
@@ -25,6 +27,7 @@ function App() {
 		</MediaQuery>
 
 		<MediaQuery maxDeviceWidth={768}>
+		<ScrollToTop/>
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<MobileBackLayout/>

@@ -19,11 +19,6 @@ const Product = () => {
 	//const [size, setSize] = useState(null);
 	//const [quantity, setQuantity] = useState(null);
 
-	const scrollToTop = () => {
-		window.scrollTo(0, 0);
-	}
-
-	scrollToTop();
 
 	return (
 		<div className="product_container">

@@ -15,7 +15,7 @@ const SubCategory = () => {
                         <section className={styles.products}>
                                 {products.map((productId, i) =>
                                         <NavLink to={`/category/${categoryId}/${subCateId}/product ${productId}`} 
-                                        className={styles.product}>
+                                        className={styles.product} key={Math.random()}>
                                                 <img src={Iphone} alt="product" className={styles.p_thumbnail}/>
                                                 <p className={styles.p_name}>Product {productId}</p>
                                                 <p className={styles.p_price}>Nu.500</p>

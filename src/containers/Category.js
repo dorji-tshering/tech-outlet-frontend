@@ -13,7 +13,8 @@ const Category = ({match}) => {
 	return (
 		<div className={styles.categories}>
 			{subCategories.map((category, i) =>
-				<NavLink to={`/category/${categoryId}/${category}`} className={styles.sub_category}>
+				<NavLink to={`/category/${categoryId}/${category}`} 
+				className={styles.sub_category} key={Math.random()}>
 					<img src={Iphone} alt="subcategory" className={styles.c_thumbnail} />
 					<p className={styles.c_name}>{category}</p>
 				</NavLink>	

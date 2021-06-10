@@ -7,6 +7,8 @@ import NotFound from '../components/utilComponents/NotFound';
 import Category from '../containers/Category';
 import SubCategory from '../containers/SubCategory';
 import Deal from '../containers/Deal';
+import ProductDetails from '../components/productComponents/ProductDetails';
+import CheckOut from '../components/utilComponents/CheckOut';
 
 
 export const Routes = [
@@ -28,6 +30,18 @@ export const Routes = [
 		component: Cart,
 		private: false,
 	}, 
+	{
+		path: '/cart/:productId',
+		exact: true,
+		component: Cart,
+		private: false,
+	},
+	{
+		path: '/checkout/:productId',
+		exact: true,
+		component: CheckOut,
+		private: false,
+	},
 	{
 		path: '/offers/:offerId',
 		exact: true,
@@ -62,6 +76,12 @@ export const Routes = [
 		path: '/product/:productId',
 		exact: true,
 		component: Product,
+		private: false,
+	},
+	{
+		path: '/product/:productId/details',
+		exact: true,
+		component: ProductDetails,
 		private: false,
 	},
 	{

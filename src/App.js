@@ -17,7 +17,7 @@ function App() {
 		<MediaQuery minDeviceWidth={769}>
 			<DesktopNav/>
 			<ScrollToTop/>
-			<Switch>
+			<Switch> 
 				<Route exact path="/" component={Home} />
 
 				{Routes.map((route, i) => 

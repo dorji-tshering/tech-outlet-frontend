@@ -1,8 +1,9 @@
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useParams, useRouteMatch } from 'react-router-dom';
 import Iphone from '../assets/images/iphone.jpeg';
 import styles from '../styles/containerStyles/Category.module.css';
 
-const Category = ({match}) => {
+const Category = () => {
+	const match = useRouteMatch();
 
 	const { categoryId } = useParams();
 
@@ -13,7 +14,7 @@ const Category = ({match}) => {
 	return (
 		<div className={styles.categories}>
 			{subCategories.map((category, i) =>
-				<NavLink to={`/category/${categoryId}/${category}`} 
+				<NavLink to={`${match.url}/${category}`} 
 				className={styles.sub_category} key={Math.random()}>
 					<img src={Iphone} alt="subcategory" className={styles.c_thumbnail} />
 					<p className={styles.c_name}>{category}</p>

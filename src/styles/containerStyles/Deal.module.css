@@ -1,0 +1,35 @@
+.deal_container {
+        text-align: center;
+}
+
+.deal_title {
+        color:rgb(6, 134, 96);
+}
+
+.deal_products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; 
+        padding: 5px;
+}
+
+.deal_product {
+        border: 1px solid rgb(228, 225, 225);
+        text-decoration: none;
+}
+
+.product_image {
+        width: 100%;
+}
+
+.product_name {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        color: rgb(84, 90, 71);
+}
+
+.product_price {
+        margin-top: 0;
+        color: red;
+}

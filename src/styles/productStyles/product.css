@@ -172,9 +172,13 @@
 	padding: 5px;
 }
 
+.product_detail_title {
+	margin: 5px auto 5px auto;
+}
+
 .product_details {
-	border: 1px solid rgb(219, 214, 214);
 	display: table;
+	margin-top: -10px;
 	width: 100%;
 }
 

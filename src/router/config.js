@@ -91,6 +91,12 @@ export const Routes = [
 		private: false,
 	},
 	{
+		path: '/deals/:dealId/:productId',
+		exact: true,
+		component: Product,
+		private: false,
+	},
+	{
 		component: NotFound,
 	}
 ];

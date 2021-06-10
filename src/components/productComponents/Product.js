@@ -16,12 +16,10 @@ const Product = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	const productImages= [Iphone, Iphone, Iphone, Iphone];
 	const { productId } = useParams();
-	console.log(productId);
 	//const [size, setSize] = useState(null);
 	//const [quantity, setQuantity] = useState(null);
 
 	const scrollToTop = () => {
-		console.log('hello');
 		window.scrollTo(0, 0);
 	}
 
@@ -93,7 +91,7 @@ const Product = () => {
 				<NavLink to={`/cart/${productId}`} className="to_cart">ADD TO CART</NavLink>
 			</section>
 			<section className="product_detail_section">
-				<h3>About this product</h3>.
+				<h3 className="product_detail_title">About this product</h3>.
 				<section className="product_details">
 					<section className="p_table_row">
 						<p>Attribute</p>
@@ -126,7 +124,7 @@ const Product = () => {
 						<NavLink to={`/product/${i}`} key={Math.random()} 
 						className="related_product_link">
 							<img src={image} alt="iphone" className="related_product_image"/>
-							<p className="price">700</p>
+							<p className="price">Nu.700</p>
 						</NavLink>
 					)}
 				</section>

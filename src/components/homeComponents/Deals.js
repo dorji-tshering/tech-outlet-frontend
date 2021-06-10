@@ -10,7 +10,9 @@ const Deals = () => {
                 <div className={styles.deals_container}>
                         { Deals.map((deal, i) => 
                                 <div className={styles.deal_item} key={i}>
-                                        <NavLink to={`/deals/${deal}`}><h3>{deal}</h3></NavLink>
+                                        <NavLink to={`/deals/${deal}`} className={styles.deal_title}>
+                                                <h3>{deal}</h3>
+                                        </NavLink>
                                         <section className={styles.deal_products}>
                                                 {Deals.map((product, i) => 
                                                                 <NavLink to={`/product/${deal}`} className={styles.p_item} key={i}>                                                                        
@@ -21,7 +23,7 @@ const Deals = () => {
                                                 
                                                 )}
                                         </section>
-                                        <NavLink to={`/deals/${deal}`}>View All</NavLink>
+                                        <NavLink to={`/deals/${deal}`} className={styles.view_all}>View All</NavLink>
                                 </div>
                         )}
                 </div>

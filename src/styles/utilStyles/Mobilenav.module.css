@@ -1,10 +1,11 @@
 .mb_nav {
-        padding: 5px;
+        padding: 5px 0 5px 0;
         background-color: rgb(231, 154, 213);
+        position: relative;
 }
 
 .navbar {
-        height: 25px;
+        height: 30px;
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
         display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
         display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -13,43 +14,43 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        padding:5px;
-        margin-bottom: 5px;
+        align-content: center;
+        padding: 0 5px 0 5px;
+        margin-bottom: 7px;
 }
 
 .logo {
+        width: 50px;
         height: 100%;
-        width: 3rem;
         flex: 5;
         border-radius: 50%;
         align-self: center;
-        border: 1px solid red;
 }
 
 .app_logo {
-        flex: 6;
-        width: 100vw;
-        padding: 2px;
-        width:max-content;
+        flex: 10;
+        margin: 0;
 }
 
 .signin {
         text-decoration: none;
         align-self: center;
-        flex: 1;
+        flex: 2;
+        font-size: 1.3rem;
+        text-align: left;
 }
 
 .cart {
         align-self: center;
         text-decoration: none;
-        flex: 1;
+        flex: 2;
 }
 
 .cart_and_items {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        padding: 5px;
+        justify-content: center;
 }
 
 .no_of_cartitems {
@@ -67,14 +68,21 @@
         border-radius: 50%;
         background-color: rgb(240, 12, 221);
 }
-
+ 
 .cart_icon {
         color: green;
+        width: 12px;
+        height: 12px;
 }
 
 .menu {
         align-self: center;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
+        flex: 1;
+        color: rgb(63, 44, 44);
+        cursor: pointer;
+        border: 1px solid whitesmoke;
+        border-radius: 2px;
 }
 

@@ -1,3 +1,12 @@
+.category_container {
+        padding: 5px;
+        text-align: center;
+}
+
+.category_title {
+        margin: 0;
+}
+
 .categories {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

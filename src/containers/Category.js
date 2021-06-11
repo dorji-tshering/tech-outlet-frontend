@@ -12,14 +12,17 @@ const Category = () => {
 
 
 	return (
-		<div className={styles.categories}>
-			{subCategories.map((category, i) =>
-				<NavLink to={`${match.url}/${category}`} 
-				className={styles.sub_category} key={Math.random()}>
-					<img src={Iphone} alt="subcategory" className={styles.c_thumbnail} />
-					<p className={styles.c_name}>{category}</p>
-				</NavLink>	
-			)}
+		<div className={styles.category_container}>
+			<h3 className={styles.category_title}>{categoryId}</h3>
+			<section className={styles.categories}>
+				{subCategories.map((category, i) =>
+					<NavLink to={`${match.url}/${category}`} 
+					className={styles.sub_category} key={Math.random()}>
+						<img src={Iphone} alt="subcategory" className={styles.c_thumbnail} />
+						<p className={styles.c_name}>{category}</p>
+					</NavLink>	
+				)}
+			</section>
 		</div>
 	)
 }

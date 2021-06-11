@@ -1,0 +1,30 @@
+@keyframes menuslide {
+        from {
+                transform: scaleY(0);
+                width: 100%;
+        }
+        to {
+                transform: scaleY(1);
+                width: 100%;
+        }
+}
+
+.mobile_menu {
+        position: absolute;
+        background-color: rgb(82, 78, 78);
+        text-align: center;
+        width: 100%;
+        z-index: 9999;
+        padding: 5px 0 5px 0;
+        animation-name: menuslide;
+        animation-duration: 0.5s;
+        transform-origin: right top;
+}
+
+.menu_link {
+        display: block;
+        font-family: monospace;
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+}

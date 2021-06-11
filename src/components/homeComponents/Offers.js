@@ -17,7 +17,7 @@ const Offers = () => {
 	
 
 	return (
-		<div className="offer-container">
+		<div className="offers-container">
 			<Swiper spaceBetween={30} slidesPerView={1} loop={true} centeredSlides={true} autoplay={{"delay": 2500,
 				"disableOnInteraction":false}} pagination={{"clickable": true}}
 				effect={"cube"} className="swiper" cubeEffect={{

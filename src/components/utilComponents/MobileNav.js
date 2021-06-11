@@ -10,7 +10,7 @@ import MobileMenu from '../menuComponents/MobileMenu';
 const MobileNav = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	const [loggedIn, setLoginStatus] = useState(false);
-	let cartItems = 9;
+	let cartItems = 5;
 
 	return (
 		<div className={styles.mb_nav}> 
@@ -35,7 +35,7 @@ const MobileNav = () => {
 				</NavLink> 
 				<MdMenu className={styles.menu} onClick={() => setShowMenu(!showMenu)}/> 
 			</div> 
-			{showMenu ? <MobileMenu/> : ''}
+			{showMenu ? <MobileMenu setShowMenu={setShowMenu} /> : ''}
 			<Search/>           
 		</div>
 	)

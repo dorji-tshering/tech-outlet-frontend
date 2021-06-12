@@ -55,10 +55,10 @@
 }
 
 .no_of_cartitems {
-        width: 0.6rem;
-        height: 0.6rem;
+        width: 0.85rem;
+        height: 0.71rem;
         font-family: sans-serif;
-        font-size: 0.55rem;
+        font-size: 0.6rem;
         text-align: center;
         color: white;
         font-weight: bold;
@@ -67,14 +67,14 @@
         right: 3px;
         bottom: 3px;
         border-radius: 50%;
-        border: 1px solid rgb(226, 27, 216);
+        border: 1px solid red;
         background-color: rgb(170, 9, 157);
 }
  
 .cart_icon {
-        color: green;
-        width: 12px;
-        height: 12px;
+        color: rgb(250, 231, 231);
+        width: 1.2rem;
+        height: 1.2rem;
 }
 
 
@@ -88,4 +88,10 @@
         cursor: pointer;
         border-radius: 2px;
         animation: rotateOpenIcon 0.5s;
+}
+
+@media screen and (min-width: 427px) {
+        .no_of_cartitems {
+                padding-top: 0.1rem;
+        }
 }

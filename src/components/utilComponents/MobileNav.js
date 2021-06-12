@@ -9,7 +9,7 @@ import MobileMenu from '../menuComponents/MobileMenu';
 
 const MobileNav = ({ setInActive }) => {
 	const [showMenu, setShowMenu] = useState(false);
-	let cartItems = 5;
+	let cartItems = 7;
 
 	return (
 		<div className={styles.mb_nav}> 

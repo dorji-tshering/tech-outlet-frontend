@@ -79,8 +79,8 @@
 /* menu-icon styles */
 .menu {
         align-self: center;
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         flex: 1;
         color: rgb(63, 44, 44);
         cursor: pointer;

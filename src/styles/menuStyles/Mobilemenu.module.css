@@ -5,7 +5,7 @@
 
 @keyframes rotateMenuClose {
         from { transform: rotate(0deg)}
-        to { transform: rotate(720deg)}
+        to { transform: rotate(1440deg)}
 }
 
 .mobile_menu {
@@ -21,7 +21,7 @@
         width: 100%;
         z-index: 9999;
         padding: 5px 0 5px 0;
-        animation: slidein 1s forwards;
+        animation: slidein 0.5s forwards;
 }
 
 .menu_link {
@@ -36,7 +36,7 @@
         position: absolute;
         top: 10px;
         right: 10px;
-        height: 20px;
-        width: 20px;
-        animation: rotateMenuClose 1s forwards;
+        height: 30px;
+        width: 30px;
+        animation: rotateMenuClose 1.5s forwards;
 }

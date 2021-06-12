@@ -7,9 +7,10 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        background-color: rgb(189, 177, 16);
         height: 50px;
-        padding: 3px;
+        padding-top: 7px;
+        border-top: 3px solid rgb(238, 105, 250);
+        border-top-right-radius: 10px;
         overflow: scroll;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */

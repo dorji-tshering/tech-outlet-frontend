@@ -11,14 +11,15 @@ const Home = () => {
 
     	return (
 		<div className={active ? `${styles.home_active}` : `${styles.home_inactive}`}>
+		<section className={styles.nav_and_category}>
 			<MediaQuery maxDeviceWidth={768}>
 				<MobileNav setInActive={setInActive} active={active}/>
 			</MediaQuery>
-			<section className={styles.home_content}>
 				<Categories/>
+		</section>
 				<Offers/>
 				<Deals/>
-			</section>
+
         	</div>
     	)
 }

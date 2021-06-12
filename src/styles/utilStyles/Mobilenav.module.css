@@ -1,7 +1,8 @@
 .mb_nav {
         padding: 5px 0 5px 0;
-        background-color: rgb(231, 154, 213);
         position: relative;
+        border-bottom: 3px solid rgb(238, 105, 250);
+        border-bottom-left-radius: 10px;
 }
 
 .navbar {
@@ -54,10 +55,10 @@
 }
 
 .no_of_cartitems {
-        width: 8px;
-        height: 8px;
+        width: 0.6rem;
+        height: 0.6rem;
         font-family: sans-serif;
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         text-align: center;
         color: white;
         font-weight: bold;
@@ -66,7 +67,8 @@
         right: 3px;
         bottom: 3px;
         border-radius: 50%;
-        background-color: rgb(240, 12, 221);
+        border: 1px solid rgb(226, 27, 216);
+        background-color: rgb(170, 9, 157);
 }
  
 .cart_icon {

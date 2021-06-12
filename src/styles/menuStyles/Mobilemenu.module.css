@@ -8,6 +8,11 @@
         to { transform: rotate(1440deg)}
 }
 
+@keyframes fadein {
+        from {opacity: 0}
+        to {opacity: 1}
+}
+
 .mobile_menu {
         position: absolute;
         height: 100vh;
@@ -15,6 +20,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         font-size: 2rem;
         background-color: rgb(231, 154, 213);
         text-align: center;
@@ -30,6 +36,10 @@
         text-decoration: none;
         color: white;
         margin-top: 10px;
+        animation: fadein 3s forwards;
+        text-decoration: underline;
+        text-decoration-color: rgb(226, 7, 226);
+        text-underline-offset: 3px;
 }
 
 .menu_close {
@@ -39,4 +49,5 @@
         height: 30px;
         width: 30px;
         animation: rotateMenuClose 1.5s forwards;
+        cursor: pointer;
 }

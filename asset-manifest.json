@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/tech-outlet-frontend/static/css/main.ff8d6d6b.chunk.css",
-    "main.js": "/tech-outlet-frontend/static/js/main.313a4ee4.chunk.js",
-    "main.js.map": "/tech-outlet-frontend/static/js/main.313a4ee4.chunk.js.map",
-    "runtime-main.js": "/tech-outlet-frontend/static/js/runtime-main.b7723fc9.js",
-    "runtime-main.js.map": "/tech-outlet-frontend/static/js/runtime-main.b7723fc9.js.map",
+    "main.css": "/tech-outlet-frontend/static/css/main.06369383.chunk.css",
+    "main.js": "/tech-outlet-frontend/static/js/main.a08f2321.chunk.js",
+    "main.js.map": "/tech-outlet-frontend/static/js/main.a08f2321.chunk.js.map",
+    "runtime-main.js": "/tech-outlet-frontend/static/js/runtime-main.da14e55c.js",
+    "runtime-main.js.map": "/tech-outlet-frontend/static/js/runtime-main.da14e55c.js.map",
     "static/css/2.4084bd8c.chunk.css": "/tech-outlet-frontend/static/css/2.4084bd8c.chunk.css",
-    "static/js/2.3ffccc46.chunk.js": "/tech-outlet-frontend/static/js/2.3ffccc46.chunk.js",
-    "static/js/2.3ffccc46.chunk.js.map": "/tech-outlet-frontend/static/js/2.3ffccc46.chunk.js.map",
-    "static/js/3.00aaa913.chunk.js": "/tech-outlet-frontend/static/js/3.00aaa913.chunk.js",
-    "static/js/3.00aaa913.chunk.js.map": "/tech-outlet-frontend/static/js/3.00aaa913.chunk.js.map",
+    "static/js/2.7f2dcee5.chunk.js": "/tech-outlet-frontend/static/js/2.7f2dcee5.chunk.js",
+    "static/js/2.7f2dcee5.chunk.js.map": "/tech-outlet-frontend/static/js/2.7f2dcee5.chunk.js.map",
+    "static/js/3.f939b5d9.chunk.js": "/tech-outlet-frontend/static/js/3.f939b5d9.chunk.js",
+    "static/js/3.f939b5d9.chunk.js.map": "/tech-outlet-frontend/static/js/3.f939b5d9.chunk.js.map",
     "index.html": "/tech-outlet-frontend/index.html",
     "static/css/2.4084bd8c.chunk.css.map": "/tech-outlet-frontend/static/css/2.4084bd8c.chunk.css.map",
-    "static/css/main.ff8d6d6b.chunk.css.map": "/tech-outlet-frontend/static/css/main.ff8d6d6b.chunk.css.map",
-    "static/js/2.3ffccc46.chunk.js.LICENSE.txt": "/tech-outlet-frontend/static/js/2.3ffccc46.chunk.js.LICENSE.txt",
+    "static/css/main.06369383.chunk.css.map": "/tech-outlet-frontend/static/css/main.06369383.chunk.css.map",
+    "static/js/2.7f2dcee5.chunk.js.LICENSE.txt": "/tech-outlet-frontend/static/js/2.7f2dcee5.chunk.js.LICENSE.txt",
     "static/media/iphone.33347ff2.jpeg": "/tech-outlet-frontend/static/media/iphone.33347ff2.jpeg",
     "static/media/logo.c152dc11.jpeg": "/tech-outlet-frontend/static/media/logo.c152dc11.jpeg",
     "static/media/offer.7c4887f0.jpg": "/tech-outlet-frontend/static/media/offer.7c4887f0.jpg",
     "static/media/offer3.c286e440.jpg": "/tech-outlet-frontend/static/media/offer3.c286e440.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7723fc9.js",
+    "static/js/runtime-main.da14e55c.js",
     "static/css/2.4084bd8c.chunk.css",
-    "static/js/2.3ffccc46.chunk.js",
-    "static/css/main.ff8d6d6b.chunk.css",
-    "static/js/main.313a4ee4.chunk.js"
+    "static/js/2.7f2dcee5.chunk.js",
+    "static/css/main.06369383.chunk.css",
+    "static/js/main.a08f2321.chunk.js"
   ]
 }

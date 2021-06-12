@@ -7,13 +7,14 @@ import MediaQuery from 'react-responsive';
 import Deals from '../components/homeComponents/Deals';
 
 const Home = () => {
+	const [active, setInActive] = useState(true);
 
     	return (
-		<div className="home">
+		<div className={active ? `${styles.home_active}` : `${styles.home_inactive}`}>
 			<MediaQuery maxDeviceWidth={768}>
-				<MobileNav/>
+				<MobileNav setInActive={setInActive} active={active}/>
 			</MediaQuery>
-			<section>
+			<section className={styles.home_content}>
 				<Categories/>
 				<Offers/>
 				<Deals/>

@@ -9,7 +9,7 @@ const Search = () => {
 				<label htmlFor="header-search">
 				<span className={styles.visually_hidden}>search products, brands, and more</span>
 				</label>
-				<div className={styles.search}>
+				<section className={styles.search}>
 					<input
 					type="search"
 					name="search"
@@ -20,7 +20,7 @@ const Search = () => {
 					<button type="submit" className={styles.button}>
 						<ImSearch className={styles.search_button}/>
 					</button>
-				</div>
+				</section>
 			</form>
 		</div>
     )

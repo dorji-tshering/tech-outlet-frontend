@@ -1,9 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import { RiCloseFill } from 'react-icons/ri';
 import styles from '../../styles/menuStyles/Mobilemenu.module.css';
 
-const MobileMenu = ({ setShowMenu }) => {
+const MobileMenu = ({ setShowMenu, setInActive }) => {
         return (
                 <div className={styles.mobile_menu}>
+                        <RiCloseFill onClick={() => {
+                                setShowMenu(false);
+                                setInActive(true);
+                        }} className={styles.menu_close}/>
                         <NavLink to="/signup" onClick={() => setShowMenu(false)} 
                         className={styles.menu_link}>
                                 SIGNUP?

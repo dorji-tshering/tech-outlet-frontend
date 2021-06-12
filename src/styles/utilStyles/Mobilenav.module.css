@@ -75,6 +75,8 @@
         height: 12px;
 }
 
+
+/* menu-icon styles */
 .menu {
         align-self: center;
         width: 20px;
@@ -82,7 +84,6 @@
         flex: 1;
         color: rgb(63, 44, 44);
         cursor: pointer;
-        border: 1px solid whitesmoke;
         border-radius: 2px;
+        animation: rotateOpenIcon 0.5s;
 }
-

@@ -22,7 +22,7 @@
         justify-content: space-around;
         align-items: center;
         font-size: 2rem;
-        background-color: rgb(231, 154, 213);
+        background-color: rgb(34, 31, 33);
         text-align: center;
         width: 100%;
         z-index: 9999;
@@ -42,12 +42,17 @@
         text-underline-offset: 3px;
 }
 
+.menu_link:hover {
+        border: 1px solid white;
+}
+
 .menu_close {
         position: absolute;
         top: 10px;
         right: 10px;
         height: 30px;
         width: 30px;
+        color: pink;
         animation: rotateMenuClose 1.5s forwards;
         cursor: pointer;
 }

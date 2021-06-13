@@ -18,7 +18,7 @@ const Deals = () => {
                                                                 <NavLink to={`/product/${deal}`} className={styles.p_item} key={i}>                                                                        
                                                                         <img src={SampleProduct} alt="deals" 
                                                                         className={styles.p_thumbnail} />
-                                                                        <p>30% Off</p>
+                                                                        <p className={styles.deal_info}>30% Off</p>
                                                                 </NavLink>
                                                 
                                                 )}

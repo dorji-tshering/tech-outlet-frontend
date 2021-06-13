@@ -10,6 +10,7 @@
         height: 50px;
         padding-top: 7px;
         border-top: 3px solid rgb(238, 105, 250);
+        border-bottom: 3px solid rgb(238, 105, 250);
         border-top-right-radius: 10px;
         overflow: scroll;
         -ms-overflow-style: none;  /* IE and Edge */

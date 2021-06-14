@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tech-outlet-frontend/static/css/main.3d00f407.chunk.css",
-    "main.js": "/tech-outlet-frontend/static/js/main.42868942.chunk.js",
-    "main.js.map": "/tech-outlet-frontend/static/js/main.42868942.chunk.js.map",
+    "main.css": "/tech-outlet-frontend/static/css/main.dfc7837f.chunk.css",
+    "main.js": "/tech-outlet-frontend/static/js/main.96b8e73f.chunk.js",
+    "main.js.map": "/tech-outlet-frontend/static/js/main.96b8e73f.chunk.js.map",
     "runtime-main.js": "/tech-outlet-frontend/static/js/runtime-main.da14e55c.js",
     "runtime-main.js.map": "/tech-outlet-frontend/static/js/runtime-main.da14e55c.js.map",
     "static/css/2.4084bd8c.chunk.css": "/tech-outlet-frontend/static/css/2.4084bd8c.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.f939b5d9.chunk.js.map": "/tech-outlet-frontend/static/js/3.f939b5d9.chunk.js.map",
     "index.html": "/tech-outlet-frontend/index.html",
     "static/css/2.4084bd8c.chunk.css.map": "/tech-outlet-frontend/static/css/2.4084bd8c.chunk.css.map",
-    "static/css/main.3d00f407.chunk.css.map": "/tech-outlet-frontend/static/css/main.3d00f407.chunk.css.map",
+    "static/css/main.dfc7837f.chunk.css.map": "/tech-outlet-frontend/static/css/main.dfc7837f.chunk.css.map",
     "static/js/2.7f2dcee5.chunk.js.LICENSE.txt": "/tech-outlet-frontend/static/js/2.7f2dcee5.chunk.js.LICENSE.txt",
-    "static/media/iphone.33347ff2.jpeg": "/tech-outlet-frontend/static/media/iphone.33347ff2.jpeg",
+    "static/media/iphone.745b3bb3.jpeg": "/tech-outlet-frontend/static/media/iphone.745b3bb3.jpeg",
     "static/media/logo.c152dc11.jpeg": "/tech-outlet-frontend/static/media/logo.c152dc11.jpeg",
     "static/media/offer.7c4887f0.jpg": "/tech-outlet-frontend/static/media/offer.7c4887f0.jpg",
     "static/media/offer3.c286e440.jpg": "/tech-outlet-frontend/static/media/offer3.c286e440.jpg"
@@ -23,7 +23,7 @@
     "static/js/runtime-main.da14e55c.js",
     "static/css/2.4084bd8c.chunk.css",
     "static/js/2.7f2dcee5.chunk.js",
-    "static/css/main.3d00f407.chunk.css",
-    "static/js/main.42868942.chunk.js"
+    "static/css/main.dfc7837f.chunk.css",
+    "static/js/main.96b8e73f.chunk.js"
   ]
 }

@@ -11,6 +11,8 @@ body {
 	sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	border: 4px solid rgb(156, 5, 5);
+	background-color: rgb(250, 246, 234);
 }
 
 @media screen and (max-width: 319px) {

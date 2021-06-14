@@ -1,6 +1,4 @@
 .deals_container {
-        border-top: 6px solid rgb(238, 105, 250); 
-        background-image: linear-gradient(to bottom, rgb(159, 241, 252), rgb(248, 145, 226), rgb(141, 248, 189));
 }
 
 .deal_item {

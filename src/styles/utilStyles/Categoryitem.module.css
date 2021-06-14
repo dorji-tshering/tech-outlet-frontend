@@ -1,11 +1,11 @@
 .c_item_container {
         height: 100%;
-        width: 100%;
+        width: auto;
         text-align: center;
 }
 
 .c_thumbnail {
-        height: 50%;
+        height: 60%;
 }
 
 .c_name {

@@ -5,7 +5,8 @@ import styles from '../../styles/homeStyles/Categories.module.css';
 
 const Categories = (match) => {
 	const categories = ["Footwear", "Cloths", "Home", "Mobile",
-				"Laptops", "Toilet"];
+				"Laptops", "Toilet", "Electronics", "Kitchen",
+					"Men", "Women", "Children"];
 	return (
 		<div className={styles.categories}>
 			{ categories.map((category, i) => 

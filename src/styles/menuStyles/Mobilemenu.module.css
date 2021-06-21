@@ -21,7 +21,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.2rem;
         background-color: rgb(34, 31, 33);
         text-align: center;
         width: 100%;
@@ -40,10 +40,6 @@
         text-decoration: underline;
         text-decoration-color: rgb(226, 7, 226);
         text-underline-offset: 3px;
-}
-
-.menu_link:hover {
-        border: 1px solid white;
 }
 
 .menu_close {

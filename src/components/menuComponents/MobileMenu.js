@@ -11,7 +11,7 @@ const MobileMenu = ({ setShowMenu, setInActive }) => {
                         }} className={styles.menu_close}/>
                         <NavLink to="/signup" onClick={() => setShowMenu(false)} 
                         className={styles.menu_link}>
-                                SIGNUP?
+                                Signup?
                         </NavLink>
                         <NavLink to="/" onClick={() => setShowMenu(false)} 
                         className={styles.menu_link}>

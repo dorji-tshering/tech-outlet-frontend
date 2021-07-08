@@ -31,12 +31,6 @@ export const Routes = [
 		private: false,
 	}, 
 	{
-		path: '/cart/:productId',
-		exact: true,
-		component: Cart,
-		private: false,
-	},
-	{
 		path: '/checkout/:productId',
 		exact: true,
 		component: CheckOut,
@@ -49,12 +43,6 @@ export const Routes = [
 		private: false,
 	}, 
 	{
-		path: '/offers/:offerId/:productId',
-		exact: true,
-		component: Product,
-		private: false,
-	},
-	{
 		path: '/category/:categoryId',
 		exact: true,
 		component: Category,
@@ -64,12 +52,6 @@ export const Routes = [
 		path: '/category/:categoryId/:subCateId',
 		exact: true,
 		component: SubCategory,
-		private: false,
-	},
-	{
-		path: '/category/:categoryId/:subCateId/:productId',
-		exact: true,
-		component: Product,
 		private: false,
 	},
 	{
@@ -88,12 +70,6 @@ export const Routes = [
 		path: '/deals/:dealId',
 		exact: true,
 		component: Deal,
-		private: false,
-	},
-	{
-		path: '/deals/:dealId/:productId',
-		exact: true,
-		component: Product,
 		private: false,
 	},
 	{

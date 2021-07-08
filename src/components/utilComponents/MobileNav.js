@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { FaCartPlus } from 'react-icons/fa';
 import styles from '../../styles/utilStyles/Mobilenav.module.css';
 import { MdMenu } from 'react-icons/md'; 
-import Search from '../homeComponents/Search';
 import MobileMenu from '../menuComponents/MobileMenu';
 
 const MobileNav = ({ setInActive }) => {
@@ -14,14 +13,14 @@ const MobileNav = ({ setInActive }) => {
 	return (
 		<div className={styles.mb_nav}> 
 			<div className={styles.navbar} >  
-				<section className={styles.app_logo}>                
+				<section className={styles.logo_container}>                
 					<NavLink to="/">
 						<img src={Logo} alt="UTO-logo" className={styles.logo} />
 					</NavLink>
 				</section> 
 
 				<NavLink to="/login" className={styles.signin}>
-					Login
+					LOGIN
 				</NavLink>
 
 				<NavLink to="/cart" className={styles.cart}>
@@ -30,14 +29,13 @@ const MobileNav = ({ setInActive }) => {
 						<span className={styles.no_of_cartitems}>{cartItems}</span>
 					</div>
 				</NavLink>
-				<MdMenu className={styles.menu} 
+				<MdMenu className={styles.main_menu} 
 				onClick={() => {
 					setShowMenu(!showMenu);
 					setInActive(false);
 				}}/> 
 			</div> 
 			{showMenu ? <MobileMenu setShowMenu={setShowMenu} setInActive={setInActive} /> : ''}
-			<Search/>           
 		</div>
 	)
 }

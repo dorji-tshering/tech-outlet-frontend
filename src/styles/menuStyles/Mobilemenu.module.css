@@ -22,7 +22,7 @@
         justify-content: space-around;
         align-items: center;
         font-size: 1.2rem;
-        background-color: rgb(34, 31, 33);
+        background-color: rgb(0, 0, 0);
         text-align: center;
         width: 100%;
         z-index: 9999;
@@ -44,10 +44,10 @@
 
 .menu_close {
         position: absolute;
-        top:0;
+        top:5px;
         right: 0;
-        height: 30px;
-        width: 30px;
+        height: 3rem;
+        width: 3rem;
         color: pink;
         animation: rotateMenuClose 1.5s forwards;
         cursor: pointer;

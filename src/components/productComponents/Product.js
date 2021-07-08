@@ -16,6 +16,9 @@ const Product = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	const productImages= [Iphone, Iphone, Iphone, Iphone];
 	const { productId } = useParams();
+	const addToCart = () => {
+		alert("Successfully added to cart!");
+	}
 	//const [size, setSize] = useState(null);
 	//const [quantity, setQuantity] = useState(null);
 
@@ -71,8 +74,8 @@ const Product = () => {
 				</section>
 				<section className="product_quantity">
 					<p className="product_specific_title">Quantity</p>
-					<select value="stateful value" 
-					onChange={() => console.log('updated')} className="select_quantity">
+					<select
+					onChange={() => console.log()} className="select_quantity">
 						<option value='1'>1</option>
 						<option value='2'>2</option>
 						<option value='3'>3</option>
@@ -83,7 +86,7 @@ const Product = () => {
 			</section>
 			<section className="user_options">
 				<NavLink to={`/checkout/${productId}`} className="checkout">BUY IT NOW</NavLink>
-				<NavLink to={`/cart/${productId}`} className="to_cart">ADD TO CART</NavLink>
+				<button onClick={addToCart} className="to_cart">ADD TO CART</button>
 			</section>
 			<section className="product_detail_section">
 				<h3 className="product_detail_title">About this product</h3>.

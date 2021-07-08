@@ -5,6 +5,7 @@ import styles from '../styles/containerStyles/Home.module.css';
 import Categories from '../components/homeComponents/Categories';
 import MediaQuery from 'react-responsive';
 import Deals from '../components/homeComponents/Deals';
+import Search from '../components/homeComponents/Search';
 
 const Home = () => {
 	const [active, setInActive] = useState(true);
@@ -14,6 +15,7 @@ const Home = () => {
 		<section className={styles.nav_and_category}>
 			<MediaQuery maxDeviceWidth={768}>
 				<MobileNav setInActive={setInActive} active={active}/>
+				<Search/>
 			</MediaQuery>
 				<Categories/>
 		</section>

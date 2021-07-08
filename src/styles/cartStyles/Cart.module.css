@@ -1,0 +1,12 @@
+.cart_container {
+        background-image: linear-gradient(to right bottom, rgb(88, 236, 247), rgb(97, 97, 235), rgb(122, 122, 231));
+        padding: 10px;
+        height: 70vh;
+}
+
+.inner_div {
+        background-color: white;
+        height: 100%;
+        opacity: 40%;
+        border-radius: 20px;
+}

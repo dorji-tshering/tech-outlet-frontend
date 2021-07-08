@@ -1,10 +1,9 @@
 import React from 'react';
-import { NavLink, useRouteMatch, useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import Iphone from '../assets/images/iphone.jpeg';
 import styles from '../styles/containerStyles/Offer.module.css';
 
 const Offer = () => {
-    	const match = useRouteMatch();
 	const { offerId } = useParams();
 	console.log("Offer component");
 
@@ -16,7 +15,7 @@ const Offer = () => {
 			<h3>Offer {offerId}</h3>
 		        <section className={styles.offer_products}>
 				{offerProducts.map((image, i) => 
-					<NavLink to={`${match.url}/product${i+1}`} key={Math.random(1000)} 
+					<NavLink to={`/product/${i}`} key={Math.random(1000)} 
 					className={styles.product}>
 						<img src={image} alt="product" className={styles.product_image} />
 						<p className={styles.product_price}>Nu.800</p>

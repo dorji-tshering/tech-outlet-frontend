@@ -152,6 +152,7 @@
 	background-color: red;
 	padding: 7px 0 7px 0;
 	border-radius: 2px;
+	color: white;
 }
 
 .to_cart {
@@ -159,9 +160,12 @@
 	display: block;
 	text-decoration: none;
 	width: 100%;
-	background-color: rgb(192, 10, 10);
+	background-color: rgb(238, 8, 8);
 	padding: 7px 0 7px 0;
 	border-radius: 2px;
+	border: none;
+	font-size: 1rem;
+	color: white;
 }
 
 /* product details styles */
@@ -204,6 +208,7 @@
 	background-color: rgb(255, 0, 212);
 	padding: 7px 0 7px 0;
 	border-radius: 2px;
+	color: white;
 }
 
 /* related products styles */

@@ -7,7 +7,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        height: 50px;
+        height: 70px;
         margin-bottom: 5px;
         padding-top: 7px;
         padding-left: 3px;
@@ -23,6 +23,7 @@
 
 .c_item {
         text-decoration: none;
-        border: 1px solid rgb(201, 170, 170);
+        border: 1px solid rgb(0, 0, 0);
         margin-right: 3px;
+        color: black;
 }

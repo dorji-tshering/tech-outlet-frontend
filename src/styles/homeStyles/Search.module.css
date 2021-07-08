@@ -1,3 +1,7 @@
+.search_container {
+	margin-top: 5px;
+}
+
 .search_field {
 	text-align: center;
 }
@@ -22,20 +26,24 @@
 	font-size: 1rem;
 	padding-left: 5px;
 	width: 100%;
-	border: 2px solid rgb(165, 133, 133);
 	border-right: none;
+	border: 2px solid rgb(0, 0, 0);
 	border-radius: 1px 0 0 1px;
+	flex: 12;
+	outline: none;
 }
 
 .search_term:focus, .search_term:focus + .button {
 	border-color: rgb(7, 134, 134);
 }
 
+
 .button {
 	padding: 3px;
 	background-color: blue;
-	border: 2px solid rgb(165, 133, 133);
+	border: 2px solid rgb(0, 0, 0);
 	border-radius: 0 1px 1px 0;
+	flex: 1;
 }
 
 .search_button {

@@ -6,13 +6,28 @@
 .offer_products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 5px;
 }
 
 .product {
-        border: 1px solid rgb(218, 216, 216);
+        border: 1px solid rgb(202, 199, 199);
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+        text-decoration: none;
+}
+
+.product_name {
+        margin: 3px 0 0 0;
+        color: black;
 }
 
 .product_image {
         width: 100%;
+}
+
+.product_price {
+        margin: 0 0 3px 0;
+        color: blue;
 }

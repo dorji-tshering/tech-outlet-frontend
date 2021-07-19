@@ -14,8 +14,12 @@
 }
 
 .deal_product {
+        text-align: left;
         border: 1px solid rgb(228, 225, 225);
         text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
 }
 
 .product_image {
@@ -23,13 +27,11 @@
 }
 
 .product_name {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.1rem;
-        color: rgb(84, 90, 71);
+        color: rgb(0, 0, 0);
+        margin: 3px 0 0 0;
 }
 
 .product_price {
-        margin-top: 0;
-        color: red;
+        color: rgb(38, 0, 255);
+        margin: 0 0 3px 0;
 }

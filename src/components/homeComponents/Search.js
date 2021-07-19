@@ -18,7 +18,7 @@ const Search = () => {
 					className={styles.search_term}
 					/>
 					<button type="submit" className={styles.button}>
-						<ImSearch className={styles.search_button}/>
+						<ImSearch className={styles.search_button_icon}/>
 					</button>
 				</section>
 			</form>

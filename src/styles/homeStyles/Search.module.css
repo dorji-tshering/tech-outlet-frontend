@@ -27,25 +27,27 @@
 	padding-left: 5px;
 	width: 100%;
 	border-right: none;
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 1px 0 0 1px;
+	border: 2px solid rgb(202, 198, 198);
+	border-right: none;
+	border-radius: 3px 0 0 3px;
 	flex: 12;
 	outline: none;
 }
 
 .search_term:focus, .search_term:focus + .button {
-	border-color: rgb(7, 134, 134);
 }
 
 
 .button {
 	padding: 3px;
-	background-color: blue;
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 0 1px 1px 0;
+	background-color: rgb(0, 0, 0);
+	border: 2px solid rgb(202, 198, 198);
+	border-radius: 0 3px 3px 0;
 	flex: 1;
 }
 
-.search_button {
+.search_button_icon {
 	color:cornsilk;
+	width: 1.5rem;
+	height: 1.5rem;
 }

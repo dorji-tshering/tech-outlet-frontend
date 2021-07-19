@@ -14,7 +14,7 @@
         justify-content: space-between;
         align-content: center;
         padding:5px 0 5px 7px;
-        background-color: black;
+        background-color: rgb(202, 198, 198);
 }
 
 .logo {
@@ -36,7 +36,7 @@
         flex: 2;
         font-size: 1.3rem;
         text-align: left;
-        color:rgb(122, 115, 115);
+        color:rgb(0, 0, 0);
 }
 
 .cart {
@@ -65,12 +65,11 @@
         right: 3px;
         bottom: 3px;
         border-radius: 50%;
-        border: 1px solid red;
-        background-color: rgb(170, 9, 157);
+        background-color: rgb(0, 0, 0);
 }
  
 .cart_icon {
-        color: rgb(11, 194, 226);
+        color: rgb(0, 0, 0);
         width: 1.2rem;
         height: 1.2rem;
 }
@@ -79,9 +78,9 @@
 /* menu-icon styles */
 .main_menu {
         align-self: center;
-        height: 2.4rem;
+        height: 2.2rem;
         flex: 1.5;
-        color: rgb(122, 115, 115);
+        color: rgb(0, 0, 0);
         cursor: pointer;
 }
 

@@ -10,7 +10,8 @@ const Categories = (match) => {
 	return (
 		<div className={styles.categories}>
 			{ categories.map((category, i) => 
-				<NavLink to={`/category/${category}`} key={i} className={styles.c_item}>
+				<NavLink to={`/category/${category}`} key={i} 
+				className={styles.category_item}>
 					<CategoryItem categoryName={category} />
 				</NavLink>
 			)}

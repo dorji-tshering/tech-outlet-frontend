@@ -8,20 +8,21 @@
         padding: 0 5px 0 5px;
         border: 1px solid rgb(146, 124, 124);
         border-radius: 2px;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
 }
 
 .deal_title {
         text-decoration: none;
-        color: rgb(53, 49, 49);
-        font-family: monospace;
-        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+        margin: -10px 0 -10px 0;
 }
 
 .deal_info {
-        color: rgb(10, 10, 10);
+        color: rgb(2, 133, 255);
         font-style: italic;
-        font-weight: 600;
+        font-size: 0.8rem;
 }
 
 .deal_products {

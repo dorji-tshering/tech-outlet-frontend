@@ -1,6 +1,6 @@
 import { useParams, NavLink } from 'react-router-dom';
-import styles from '../styles/containerStyles/Deal.module.css';
-import Iphone from '../assets/images/iphone.jpeg';
+import styles from '../../styles/containerStyles/Deal.module.css';
+import Iphone from '../../assets/images/iphone.jpeg';
 
 const Deal = () => {
         const { dealId } = useParams();

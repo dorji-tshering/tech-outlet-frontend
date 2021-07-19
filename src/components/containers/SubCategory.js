@@ -1,6 +1,6 @@
 import { NavLink, useParams } from 'react-router-dom';
-import Iphone from '../assets/images/iphone.jpeg';
-import styles from '../styles/containerStyles/SubCategory.module.css';
+import Iphone from '../../assets/images/iphone.jpeg';
+import styles from '../../styles/containerStyles/SubCategory.module.css';
 
 const SubCategory = () => {
         const { categoryId, subCateId } = useParams();
@@ -15,9 +15,10 @@ const SubCategory = () => {
                                 {products.map((productId, i) =>
                                         <NavLink to={`/product/${i}`} 
                                         className={styles.product} key={Math.random()}>
-                                                <img src={Iphone} alt="product" className={styles.p_thumbnail}/>
-                                                <p className={styles.p_name}>Product {productId}</p>
-                                                <p className={styles.p_price}>Nu.500</p>
+                                                <img src={Iphone} alt="product" 
+                                                className={styles.product_thumbnail}/>
+                                                <p className={styles.product_name}>Product {productId}</p>
+                                                <p className={styles.product_price}>Nu.500</p>
                                         </NavLink>      
                                 )}
                         </section>

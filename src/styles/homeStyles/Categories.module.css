@@ -21,9 +21,9 @@
         display: none;               /* for Chrome Safari and Opera */
 }
 
-.c_item {
+.category_item {
         text-decoration: none;
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid rgb(202, 198, 198);
         margin-right: 3px;
         color: black;
 }

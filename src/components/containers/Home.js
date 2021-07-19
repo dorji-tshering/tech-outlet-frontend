@@ -1,11 +1,11 @@
 import {useState} from 'react';
-import MobileNav from '../components/utilComponents/MobileNav';
-import Offers from '../components/homeComponents/Offers';
-import styles from '../styles/containerStyles/Home.module.css';
-import Categories from '../components/homeComponents/Categories';
+import MobileNav from '../utilComponents/MobileNav';
+import Offers from '../homeComponents/Offers';
+import styles from '../../styles/containerStyles/Home.module.css';
+import Categories from '../homeComponents/Categories';
 import MediaQuery from 'react-responsive';
-import Deals from '../components/homeComponents/Deals';
-import Search from '../components/homeComponents/Search';
+import Deals from '../homeComponents/Deals';
+import Search from '../homeComponents/Search';
 
 const Home = () => {
 	const [active, setInActive] = useState(true);

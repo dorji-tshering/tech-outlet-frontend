@@ -1,12 +1,12 @@
 import Login from '../components/authComponents/Login';
 import Signup from '../components/authComponents/Signup';
 import Cart from '../components/cartComponents/Cart';
-import Offer from '../containers/Offer';
+import Offer from '../components/containers/Offer';
 import Product from '../components/productComponents/Product';
 import NotFound from '../components/utilComponents/NotFound';
-import Category from '../containers/Category';
-import SubCategory from '../containers/SubCategory';
-import Deal from '../containers/Deal';
+import Category from '../components/containers/Category';
+import SubCategory from '../components/containers/SubCategory';
+import Deal from '../components/containers/Deal';
 import ProductDetails from '../components/productComponents/ProductDetails';
 import CheckOut from '../components/utilComponents/CheckOut';
 

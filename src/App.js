@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import DesktopNav from './components/utilComponents/DesktopNav';
 import MobileBackLayout from './components/utilComponents/MobileBackLayout';
-import Home from './containers/Home';
+import Home from './components/containers/Home';
 import MediaQuery from 'react-responsive';
 import { Routes } from './router/config';
 import RouteWithSubRoutes from './router/RouteWithSubRoutes';

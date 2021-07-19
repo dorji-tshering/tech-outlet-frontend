@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, useParams } from 'react-router-dom';
-import Iphone from '../assets/images/iphone.jpeg';
-import styles from '../styles/containerStyles/Offer.module.css';
+import Iphone from '../../assets/images/iphone.jpeg';
+import styles from '../../styles/containerStyles/Offer.module.css';
 
 const Offer = () => {
 	const { offerId } = useParams();
@@ -17,7 +17,9 @@ const Offer = () => {
 				{offerProducts.map((image, i) => 
 					<NavLink to={`/product/${i}`} key={Math.random(1000)} 
 					className={styles.product}>
-						<img src={image} alt="product" className={styles.product_image} />
+						<img src={image} alt="product" 
+						className={styles.product_image} />
+						<p className={styles.product_name}>Product</p>
 						<p className={styles.product_price}>Nu.800</p>
 					</NavLink>
 				)}

@@ -17,13 +17,16 @@
 
 .sub_category{
         border: 2px solid rgb(185, 166, 166);
+        display: flex;
+        flex-direction: column;
         text-decoration: none;
 }
 
-.c_thumbnail {
+.category_thumbnail {
         width: 100%;
 }
 
-.c_name {
-        color: rgb(66, 143, 66);
+.category_name {
+        color: rgb(0, 0, 0);
+        margin: 5px;
 }

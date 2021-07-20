@@ -16,11 +16,25 @@ const Product = () => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	const productImages= [Iphone, Iphone, Iphone, Iphone];
 	const { productId } = useParams();
-	const addToCart = () => {
-		alert("Successfully added to cart!");
+	
+	const availableColors = ['Green', 'Blue', 'Red', 'Yellow', 'Purple'];
+	const availableSizes = ['S', 'M', 'L', 'XL'];
+	let maxQuantity = 10;
+	const quantityArray = [];
+
+	// craete an array containing quantity values
+	for(let i=1; i<=maxQuantity; i++) {
+		quantityArray.push(i);
 	}
-	//const [size, setSize] = useState(null);
-	//const [quantity, setQuantity] = useState(null);
+
+	// product states
+	const [color, setColor] = useState();
+	const [size, setSize] = useState(null);
+	const [quantity, setQuantity] = useState(1);
+
+	const addToCart = () => {
+		alert("Successfully added to cart with: " + color + size + quantity);
+	}
 
 
 	return (
@@ -54,33 +68,39 @@ const Product = () => {
 
 			</section>
 			<section className="product_options">
-				<section className="product_colors">
+				<section className="colors">
 					<p className="product_specific_title">Colors:</p>
-					<section className="colors">
-						<p className="red">Red</p>
-						<p className="green" >Green</p>
-						<p className="blue" >Blue</p>
-						<p className="black" >Black</p>
+					<section className='product_colors'>
+						{availableColors.map((color, idx) => 
+						<section className='product_color' key={idx}>
+							<label htmlFor={color}>{color}</label>
+							<input type='radio' id={color} name='product_color' 
+							value={color} checked={() => setColor(color)} />
+						</section>
+						)}
 					</section>
 				</section>
-				<section className="product_sizes">
+				<hr/>
+				<section className="sizes">
 					<p className="product_specific_title">Sizes:</p>
-					<section className="sizes">
-						<p>4</p>
-						<p>5</p>
-						<p>6</p>
-						<p>7</p>
+					<section className="product_sizes">
+						{availableSizes.map((size, idx) =>
+							<section className='product_size' key={idx}>
+								<label htmlFor={size}>{size}</label>
+								<input type='radio' id={size} name='size' 
+								value={size} />
+							</section>	
+						)}
 					</section>
 				</section>
+				<hr/>
 				<section className="product_quantity">
-					<p className="product_specific_title">Quantity</p>
+					<p className="product_specific_title">Quantity:</p>
 					<select
 					onChange={() => console.log()} className="select_quantity">
-						<option value='1'>1</option>
-						<option value='2'>2</option>
-						<option value='3'>3</option>
-						<option value='4'>4</option>
-						<option value='5'>5</option>
+						{quantityArray.map((quantity, idx) =>
+							<option value={quantity} key={idx}>{quantity}</option>	
+						)}
 					</select>
 				</section>
 			</section>

@@ -63,7 +63,7 @@ const Product = () => {
 			
 			<section className="product_specifics">
 				<h3>Apple Iphone 7 Plus 64GB Factory Unlocked 4G LTE iOS Smartphone</h3>
-				<strong><em className="product_price">Nu. 50,000 + Nu. 50 for shipping</em></strong>
+				<strong className="product_price">Nu. 50,000</strong>
 				<p className="product_delivery_time">Estimated delivery-time: 3 Days</p>				
 
 			</section>
@@ -75,7 +75,7 @@ const Product = () => {
 						<section className='product_color' key={idx}>
 							<label htmlFor={color}>{color}</label>
 							<input type='radio' id={color} name='product_color' 
-							value={color} checked={() => setColor(color)} />
+							value={color} />
 						</section>
 						)}
 					</section>
